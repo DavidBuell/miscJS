@@ -1,7 +1,8 @@
 function reservationManager() {
     this.form = document.querySelectorAll("#form1");
 }
-
+console.log("test");
+alert("test 2");
 reservationManager.prototype.init = function() {
     const interfaceWrapper = document.createElement("div");
     const interfaceStyles = document.createElement("style");
